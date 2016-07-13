@@ -1,10 +1,10 @@
 <?php
 
-include "code/bootstrap.php";
+include "Code/bootstrap.php";
 
 $mailer = new Mailer();
 
-$mailer->addRecipient('test@example.com');
+$mailer->addRecipient('me@example.com');
 $mailer->addRecipient('foo@example.com');
 $mailer->addRecipient('bar@example.com');
 
