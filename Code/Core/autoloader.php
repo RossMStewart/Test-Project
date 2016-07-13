@@ -1,5 +1,5 @@
 <?php
-class Auotloader
+class Autoloader
 {
 	public static function loader($class)
 	{
